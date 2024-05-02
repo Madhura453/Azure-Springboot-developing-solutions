@@ -1,0 +1,20 @@
+apiVersion: 2019-12-01
+location: northeurope
+name: AppGroup
+properties:
+  containers: 
+  - name: db
+    properties:
+      image: politieanswaste.azurecr.io/customsql:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGb: 1.5
+      ports:
+      - port: 3306   
+  osType: Linux
+  imageRegistryCredentials:
+    - server: politieanswaste.azurecr.io
+      username: politieanswaste
+      password: Ir/tvFvo=H4wT95otSA4qjEgx+DK0WZN
+type: Microsoft.ContainerInstance/containerGroups

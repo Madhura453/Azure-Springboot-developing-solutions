@@ -1,0 +1,28 @@
+apiVersion: 2019-12-01
+location: South India
+name: BlobGroup
+properties:
+  containers: 
+  - name: blob
+    properties:
+      image: politieanswaste.azurecr.io/dockervolume-blob-storage:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGb: 1.5
+      volumeMounts:
+      - mountPath: /app/data
+        name: filesharevolume    
+  osType: Linux
+  restartPolicy: Never
+  volumes:
+  - name: filesharevolume
+    azureFile:
+      sharename: containershare
+      storageAccountName: madhura453
+      storageAccountKey: 67Fstorageaccountkey
+  imageRegistryCredentials:
+    - server: politieanswaste.azurecr.io
+      username: politieanswaste
+      password: Ir/password
+type: Microsoft.ContainerInstance/containerGroups

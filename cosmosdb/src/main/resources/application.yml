@@ -1,0 +1,6 @@
+#azure:
+#  cosmos:
+#     url: https://munna.documents.azure.com:443/
+#     key: 1WwpnmMuWwL0pkgtJMIg1zQSEKdhOIYe7FaP6uHAvg9R0mVMEXovY1GxiuvvReUox2Jeh7NyO0Z9Hh0EdatO8Q==
+#     database: aggriculture
+#     populate-query-metrics: true

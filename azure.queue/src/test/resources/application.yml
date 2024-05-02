@@ -1,0 +1,24 @@
+azure:
+  keyvault:
+      enabled: true
+      uri: https://firstkeyvaultmadhu.vault.azure.net/vvv
+      client-id: client id
+      client-key: client key
+      tenant-id: c752025a-2006-4f92-babc-8cf4cbf70f6e
+      token-acquire-timeout-seconds: 60
+      refresh-interval: 1800000
+  servicebus:
+      connection-string: ${spring-queue}
+      mqueue: todayqueue
+
+
+
+spring:
+  jms:
+    servicebus:
+      connection-string: ${spring-queue}
+      idle-timeout: 1800000
+      pricing-tier: Standard
+
+madhura:
+  queue: todayqueue

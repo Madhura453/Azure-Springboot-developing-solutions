@@ -1,0 +1,33 @@
+azure:
+  eventhub:
+    connection-string: Endpoint=sb://eventhubnamespacemadhura.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ljiU4AFWeqqtslCqC8XgUy1bm+JLyTPBG9GRlKtdSxM=
+    eventhub-name: bbv
+  storage:
+    account-connection-string: DefaultEndpointsProtocol=https;AccountName=checkpointmadhura;AccountKey=+DOiXaccountkeyA==;EndpointSuffix=core.windows.net
+    eventhub-checkpoint: event
+
+
+employees:
+  url: https://gfd.azure-api.net/madhura/alone
+  getEmployees: /employees
+  subscriptionKeyName: Ocp-Apim-Subscription-Key
+  subscriptionKeyValue: 4e69a66d44fc4f93bbb7fa85e3fa871e
+
+
+oauthURl: https://login.microsoftonline.com/5d277b90-0469-4343-8339-e337788975e5/oauth2/v2.0/token
+
+apim: '{
+"grant_type": "client_credentials",
+  "client_id": "2clientidb",
+  "client_secret": "client secret.",
+  "scope": "api://1c39ced1-5e62-4841-916f-0c77fab7e42a/.default"
+}'
+
+
+
+retryCount: 3
+retryFixedDelayInSec: 5
+
+
+functionUrl: https://madhura.azurewebsites.net/api/mysqldbtrigger
+

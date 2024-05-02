@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    azure:
+      appconfiguration:
+        stores[0]:
+          connection-string: Endpoint=https://mahura.azconfig.io;Id=QJYy-l0-s0:q24APSFqWald/zma7lNW;Secret=gOj2EeNfwIL3EcvtFPIllmyGwNAoKFVXrfDn8u2sIXk=
+          monitoring:
+            enabled: true
+            triggers[0]:
+              key: RefreshCount
+            refresh-interval: 2s
+            feature-flag-refresh-interval: 2s
+        selects[0]:
+          label-filter: prod
+          feature-flags:
+            enabled: true
+
+
+
+
+
+
+
+
+
+

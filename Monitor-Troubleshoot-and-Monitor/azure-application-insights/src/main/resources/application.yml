@@ -1,0 +1,27 @@
+#Spring:
+#  datasource:
+#    url: jdbc:sqlserver://redis.database.windows.net:1433;database=madhu;user=madhura@redis;password=gysjdwfB@799iS;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+#  jpa:
+#    show-sql: true
+#    generate-ddl: true
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        ddl-auto: update
+#        dialect: org.hibernate.dialect.SQLServerDialect
+#        naming:
+#          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#        jdbc:
+#          batch_size: 4
+#          order_inserts: true
+#
+#
+#
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+#
+#
+#
+##  ${SQLAZURECONNSTR_connectionstring}

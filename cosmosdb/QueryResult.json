@@ -1,0 +1,11 @@
+﻿[{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL server","Status":"Succeeded","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Create Deployment","Status":"Started","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Create Deployment","Status":"Accepted","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL server","Status":"Started","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL server","Status":"Accepted","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL server","Status":"Succeeded","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL server firewall rules","Status":"Started","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL database","Status":"Started","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL server firewall rules","Status":"Succeeded","Eventcategory":"Administrative","Level":"Informational"}
+,{"Correlationid":"aa999855-a549-4294-8f73-68d3f51fee3a","Operationname":"Update SQL database","Status":"Accepted","Eventcategory":"Administrative","Level":"Informational"}
+]
